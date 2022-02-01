@@ -1,0 +1,37 @@
+.basic-info{
+    background-image: linear-gradient(to bottom, var(--blue), var(--dark_blue));
+    color: white;
+    border-radius: 10px;
+    padding: 0 0 15px 0;
+}
+.basic-info .name{
+    font-size: 20px;
+}
+
+.basic-info .email{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.profile-info{
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    padding: 10px 20px;
+    display: flex;
+    color: var(--gray);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile-info div{
+    text-align: left;
+
+}
+.profile-info p{
+    padding: 10px 0;
+    color: gray;
+}
+.profile-info  p span{
+    color: black;
+}

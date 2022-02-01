@@ -1,0 +1,56 @@
+.request{
+    border-bottom: 1px solid var(--border);
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.request:last-of-type{
+    border-bottom: 0;
+}
+
+.req-b{
+    font-size: 25px;
+
+}
+
+.req-m{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+    margin: 0 10px 0 0;
+}
+
+.req-status{
+    font-size: 13px;
+    padding: 2px 3px;
+    border-radius: 4px;
+    margin: 10px;
+    border: 1px solid var(--border);
+}
+.approved{
+    font-size: 13px;
+    padding: 2px 3px;
+    border-radius: 4px;
+    margin: 10px;
+    background-color: var(--green);
+    color: white;
+}
+.request-d-wrapper{
+    display: flex;
+}
+@media only screen and (max-width:400px){
+    .request-d-wrapper{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .req-m{
+        margin-bottom: 5px;
+    }
+    .req-m:last-of-type{
+        margin: 0;
+    }
+}

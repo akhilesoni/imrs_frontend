@@ -1,0 +1,154 @@
+.invoice-header{
+    text-align: left;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.big-text{
+    font-size: 22px;
+}
+
+.small-g-text{
+    font-size: 15px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.medium-text{
+    font-size: 19px;
+    text-align: left;
+}
+
+.invoice-page-panel{
+    padding: 10px;
+}
+
+.invoice-logo{
+    background-color: var(--blue);
+    color: white;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+    width: 45px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.line{
+    background-color: var(--border);
+    height: 1px;
+    width: 100%;
+}
+
+.invoice-section{
+    margin-top: 10px;
+}
+
+.invoice-data-text{
+    color: grey;
+}
+
+.invoice-action-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+
+
+.invoice-button-red{
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: var(--red);
+    font-size: 13px;
+    cursor: pointer;
+    border: 1px solid var(--red);
+}
+
+.invoice-button-green{
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    color: var(--green);
+    
+    border: 1px solid var(--green);
+}
+
+.invoice-button-green:hover{
+    background-color: var(--light_green);
+}
+
+.invoice-button-red:hover{
+    background-color: var(--light_red);
+}
+
+.issue-prompt{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    text-align: left;
+    margin-left: -130px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px solid rgba(0, 0, 0, 0.13);
+}
+
+.issue-prompt p{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.issue-prompt textarea{
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    padding: 3px;
+    outline: none;
+}
+
+.issue-prompt button{
+    border: 0px;
+    color: var(--green);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid var(--green);
+}
+
+.issue-prompt button:hover{
+    background-color: var(--green) ;
+    color: white;
+}
+
+
+
+.reconciliation-prompt{
+  
+    padding: 15px 10px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    width: 400px;
+    text-align: left;
+    margin-left: -210px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px solid rgba(0, 0, 0, 0.13);
+}
+
+
+@media only screen and (max-width:600px){
+    .reconciliation-prompt{
+        width: 80%;
+        left: 8%;
+        margin: 0;
+    }
+}

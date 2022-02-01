@@ -1,0 +1,130 @@
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: var(--dark_blue);
+    top: 0;
+    height: 100%;
+    width: 200px;
+    transition: 0.3s;
+    left: 0;
+    z-index: 999;
+}
+
+.side-nav-close{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    background-color: var(--dark_blue);
+    height: 100%;
+    width: 200px;
+    transition: 0.3s;
+    z-index: 999;
+    left: 0;
+}
+
+
+
+.logo{
+    font-size: 20px;
+    padding: 12.5px 30px;
+    background-color: var(--blue);
+    font-family: 'Offside';
+    color: white;
+    text-align: left;
+}
+.side-menu{
+    margin-top: 10px;
+}
+
+.side-menu-item{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.link-wrapper{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.side-menu-item:hover{
+    background-color: var(--blue   );
+    border-left: 2px solid white;
+}
+
+.side-menu-link{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.menu-icon{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.hambar{
+    position: fixed;
+    border-radius: 50%;
+    padding: 10px 5px;
+    top: 6px;
+    left: 6px;
+    z-index: 998;
+}
+
+.hambar:hover{
+    background-color: var(--light_dark_bg);
+}
+
+.bar{
+    width: 23px;
+    height: 2px;
+    margin: 3px;
+    background-color: white;
+}
+
+.bottom-side{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 13px;
+    padding: 8px 10px;
+}
+@media only screen  and (max-width:600px){
+    .side-nav{
+        left: 0px;
+    }
+    .side-nav-close{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: -200px;
+        transition: 0.3s;
+        height: 100%;
+        width: 200px;
+        box-shadow: rgb(169 174 183 / 50%) 0px 1px 2px 0px;
+    }
+
+    .side-cover{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 998;
+        background-color: rgba(0, 0, 0, 0.178);
+    }
+}

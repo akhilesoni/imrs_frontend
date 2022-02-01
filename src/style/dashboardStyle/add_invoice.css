@@ -1,0 +1,15 @@
+.activity-panel{
+    width: 60%;
+    left: 20%;
+    position: fixed;
+    background-color: white;
+    padding: 20px 30px;
+    top: 10%;
+    border-radius: 5px;
+    box-shadow: rgb(169 174 183 / 50%) 0px 1px 2px 0px;
+
+}
+
+.invisible{
+    display: none;
+}

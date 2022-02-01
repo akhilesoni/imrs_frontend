@@ -1,0 +1,29 @@
+
+.panel-button-blue{
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 6px 8px 7px 8px;
+    color: var(--blue);
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: var(--light_blue);
+    border: 1px solid var(--light_blue);
+}
+
+.button-icon{
+    width: 17px;
+    margin-right: 5px;
+}
+
+
+.panel-button-blue:hover{
+    border: 1px solid var(--blue);
+
+}
+
+@media only screen and (max-width:600px){
+    .panel-button-blue{
+        font-size: 10px;
+    }
+}

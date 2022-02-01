@@ -1,0 +1,152 @@
+.input-h-wrapper{
+    display: flex;
+}
+
+.user-info-form{
+    margin-top: 20px;
+}
+
+.wide-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.form-half{
+    width: 500px;
+}
+.wide-form input{
+    width: 94%;
+    padding: 10px 3%;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Almarai';
+    outline: none;
+}
+.wide-form input:hover{
+    border: 2px solid var(--border_hightlight);
+}
+.wide-form input:focus{
+    border: 2px solid var(--border_hightlight);
+    box-shadow: 0 0 2px var(--border_hightlight);
+}
+
+.wide-form input[type=date]:hover{
+    border: 2px solid var(--border_hightlight);
+}
+.wide-form input[type=date]:focus{
+    border: 2px solid var(--border_hightlight);
+    box-shadow: 0 0 2px var(--border_hightlight);
+}
+.col-wrapper{
+    display: flex;
+}
+.wide-form select:hover{
+    border: 2px solid var(--border_hightlight);
+
+}
+
+.wide-form select:focus{
+    border: 2px solid var(--border_hightlight);
+    box-shadow: 0 0 2px var(--border_hightlight);
+}
+.wide-form select{
+    width: 100%;
+    padding: 9px 3%;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Almarai';
+    outline: none;
+}
+.wide-form button{
+   float: right;
+   padding: 12px 40px;
+   background-color: var(--green);
+   color: white;
+   font-size: 15px;
+   font-family: 'Almarai';
+   border-radius: 5px;
+   border: 0;
+   margin-top: 10px;
+}
+
+.checkbox-wrapper{
+    width: 94%;
+    padding: 8.5px 3%;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Almarai';
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkbox-wrapper label{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: gray;
+}
+
+.wide-form input[type=date]{
+    width: 94%;
+    padding: 7px 3%;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Almarai';
+    outline: none;
+}
+.wide-form button:hover{
+    background-color: var(--text_hightlight);
+}
+
+.wide-form button:focus{
+    box-shadow: 0 0 2px var(--green);
+}
+
+.col-half{
+    width: 48%;
+    margin-right: 4%;
+}
+.col-half:last-of-type{
+    margin-right: 0;
+}
+.form-heading-big{
+    text-align: left;
+    margin: 20px 0 10px 0;
+}
+
+.activity-open{
+    width: 94%;
+    padding: 9px 3%;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Almarai';
+    outline: none;
+    text-align: left;
+    font-size: 14px;
+}
+
+
+
+.activity-open:hover{
+    border: 2px solid var(--border_hightlight);
+    cursor: pointer;
+}
+
+.form-heading-medium{
+    color: var(--blue);
+    text-align: left;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+}
+
+.invoice-form{
+    margin-top: 20px;
+}

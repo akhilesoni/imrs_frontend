@@ -1,0 +1,88 @@
+.login-page .heading{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Offside';
+    font-weight: 600;
+    color: var(--blue);
+}
+
+
+.login-container{
+    max-width: 300px;
+    margin: 50px auto auto auto;
+    box-shadow: rgba(0, 0, 0, 0.383) 0px 1px 2px 0px;
+
+    border-radius: 5px;
+    padding:10px 15px 30px 15px;
+    background-color: white;
+
+}
+.login-form{
+   display: flex;
+   flex-direction: column; 
+}
+
+
+.login-form input{
+    border: 1px solid var(--border);
+    background-color: var(--light_dark_bg);
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Almarai';
+}
+
+.login-form input:focus{
+    box-shadow: 0 0 3px var(--blue);
+    border:1px solid var(--blue) ;
+
+}
+.login-form input:hover{
+    border:1px solid var(--blue) ;
+}
+.login-form label{
+    margin-top: 20px;
+    text-align: start;
+    font-size: 13px;
+}
+.login-form button:hover{
+    background-color: rgb(54, 54, 197);
+    box-shadow: 0 0 3px var(--blue);
+
+}
+
+.login-form button:focus{
+    background-color: var(--blue);
+    box-shadow: 0 0 5px var(--border_hightlight);
+}
+.login-form button{
+    background-color: var(--blue);
+    padding: 10px;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Almarai';
+}
+.login-container .forget-notice{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.forget-notice .link{
+    text-decoration: none;
+    color: var(--text_hightlight);
+    font-weight: 600;
+
+}
+
+
+
+@media only screen and (max-width:382px){
+    .login-container{
+        margin: 30px 15px 0 15px;
+    }
+}

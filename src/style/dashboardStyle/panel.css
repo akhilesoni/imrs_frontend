@@ -1,0 +1,39 @@
+.panel{
+    margin-left: 200px;
+    margin-right: 0px;
+    margin-top: 50px;
+    padding: 30px 20px;
+    background-color: white;
+    min-height: 700px;
+    border-left: 1px solid var(--border);
+}
+
+.panel-header{
+    display: flex;
+    align-items: center;
+}
+.panel-heading{
+    font-size: 30px;
+    color: var(--dark_blue);
+}
+
+@media only screen  and (max-width:600px){
+    .panel{
+        margin-left: 0px;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 20px 20px;
+    }
+
+    .panel-header{
+        font-size: 13px;
+    }
+
+    .panel-heading{
+        font-size: 17px;
+    }
+
+    .panel-button-blue{
+        font-size: 13px;
+    }
+}

@@ -33,7 +33,7 @@ export default function LoginForm(){
             dispatch(setLoading(false))
             return;
         }
-        fetch(URL+'login',{
+       /* fetch(URL+'login',{
             method:'POST',
             body:JSON.stringify({
                 user:user
@@ -62,15 +62,14 @@ export default function LoginForm(){
             if(data.isCorrect && data.isFound){
                 localStorage.setItem(TOKEN,data.token);
                 console.log(data.user)
-                localStorage.setItem(USER,JSON.stringify(data.user));
+                localStorage.setItem(USER,JSON.stringify(data.user));*/
                 navigate('/home')
                 
-            }
+         //   }
             dispatch(setLoading(false))
 
-        })
+    //    })
         
-
     }
 
     const handleChange = (e) => {
